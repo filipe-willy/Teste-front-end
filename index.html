@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="Símbolos de acentos em HTML">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<style>
 		.img-responsive {
@@ -32,7 +34,24 @@
 	<!-- Insira aqui a sua estrutura html que funcione tanto para Desktop quanto para Mobile -->
 	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
+<!-- Empilhar as colunas no celular, fazendo um full-largura e a outra metade de largura --> 
+<div class="linha"> 
+  <div class="col-xs-12 col-md-8"></div> 
+  <div class="col-xs-6 col-md-4"></div> 
+</div>
 
+<!-- Colunas começam em 50% larga no celular e bata até 33,3% de largura no desktop --> 
+<div class="linha"> 
+  <div class="col-xs-6 col-md-4"></div> 
+  <div class="col-xs-6 col-md-4"></div> 
+  <div class="col-xs-6 col-md-4"></div> 
+</div>
+
+<!-- As colunas são sempre 50% de largura, no celular e desktop--> 
+<div class="linha"> 
+  <div class="col-xs-6"></div> 
+  <div class="col-xs-6"></div> 
+</div>
 
 
 
